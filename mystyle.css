@@ -1,0 +1,148 @@
+/*Style for background behind main content block*/
+body {
+    background-color: #e4e4e4;
+}
+
+/*Style for main content block*/
+section {
+    background-color: #fafafa;
+    width: 60%;
+    min-height: 600px;
+    margin: 32px 0 32px;
+    padding-bottom: 30px;
+}
+
+/*Remove underline from links*/
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+/*Style for navbar*/
+.navigation {
+    background-color: #fafafa;
+    padding: 0 15px;
+}
+
+.name-col {
+    background-color: #3e3f3a;
+    justify-content: center;
+}
+
+#nav-name {
+    font-size: 42px;
+    color: #fafafa;
+}
+
+.links {
+    color: #777;
+}
+
+nav {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*Style for title of main content block*/
+#name-title {
+    color: #325d88;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+/*Style for index picture*/
+#my-picture {
+    width: 250px;
+    margin-right: 15px;
+    float: left;
+}
+
+/*Style for portfolio image*/
+.port-img {
+    margin: 0 auto;
+    position: relative;
+}
+
+.thumb {
+    margin-top: 20px;
+}
+
+.thumb-label {
+    position: absolute;
+    bottom: 15px;
+    width: 250px;
+    background-color: #325d88;
+    opacity: 0.8;
+    color: #fafafa;
+    text-align: center;
+    padding: 7px;
+    font-weight: 500;
+}
+
+
+.btn-primary {
+    background-color: #3e3f3a;
+    border-color: #3e3f3a;
+}
+
+.btn:hover {
+    background-color: #325d88;
+    border-color: #325d88;
+}
+
+footer {
+    position: static;
+    width: 100%;
+    height: 75px;
+    bottom: 0;
+    background-color: #325d88;
+    text-align: center;
+    z-index: 1;
+    color: #fafafa;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: #8e8c84;
+    z-index:0;
+}
+
+.footer-text {
+    margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    #my-picture {
+        float: none;
+        justify-content: center;
+        margin: 0 0 15px 25%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #my-picture {
+        float: none;
+        justify-content: center;
+        margin: 0 0 15px 17%;
+    }
+} 
+
+@media screen and (max-width: 375px) {
+    #my-picture {
+        float: none;
+        justify-content: center;
+        margin: 0 0 15px 13%;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    #my-picture {
+        float: none;
+        justify-content: center;
+        margin: 0 0 15px 6%;
+    }
+} 
