@@ -18,42 +18,42 @@
 
 <body>
 
+  <!--Content classes for setting height of content minus footer-->
+  <div class="content">
+    <div class="content-inside">
 
-  <!--Navbar-->
-  <div class="container">
-    <div class="row navigation justify-content-center">
-      <div class="col-lg-4 col-md-5 col-sm-12 name-col text-center">
+      <!--Navbar-->
+      <nav>
         <a href="index.html" id="nav-name">Ryan Gautier</a>
-      </div>
-      <div class="col-lg-5 col-md-2"></div>
-      <!--Navbar links-->
-      <nav class="col-lg-3 col-md-5 col-sm-12 text-center">
-        <a href="index.html" class="links">Home</a> |
-        <a href="portfolio.html" class="links">Portfolio</a> |
-        <a href="contact.html" class="links">Contact</a>
+        <!--Navbar links-->
+        <div class="navigation">
+          <a href="index.html" class="links">Home</a> |
+          <a href="portfolio.html" class="links">Portfolio</a> |
+          <a href="contact.html" class="links">Contact</a>
+        </div>
       </nav>
-    </div>
-    <!--Section for content-->
-    <div class="row">
-      <section class="col-lg-9 col-md-12 col-sm-12">
-        <h1 class="display-4" id="name-title">About Me</h1>
+      <!--Section for content-->
+
+      <section>
+        <h1 class="display-4" id="name-title">Contact</h1>
         <!--Page break-->
         <hr class="my-4">
+        <!--Contact Form-->
         <form>
-            <div class="form-group">
-                <label for="FormNameInput">Name</label>
-                <input type="email" class="form-control" id="FormNameInput" placeholder="John Smith">
-              </div>
-            <div class="form-group">
-              <label for="FormEmailInput">Email address</label>
-              <input type="email" class="form-control" id="FormEmailInput" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="FormTextarea">Message</label>
-              <textarea class="form-control" id="FormTextarea" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          <div class="form-group">
+            <label for="FormNameInput">Name</label>
+            <input type="email" class="form-control" id="FormNameInput" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="FormEmailInput">Email address</label>
+            <input type="email" class="form-control" id="FormEmailInput" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="FormTextarea">Message</label>
+            <textarea class="form-control" id="FormTextarea" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </section>
     </div>
   </div>
