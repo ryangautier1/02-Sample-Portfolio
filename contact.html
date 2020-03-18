@@ -6,6 +6,9 @@
   <!--Responsive meta tag-->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!--Link to font awesome-->
+  <script src="https://kit.fontawesome.com/7a56207d34.js" crossorigin="anonymous"></script>
+
   <!--Link to Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -18,47 +21,45 @@
 
 <body>
 
-  <!--Content classes for setting height of content minus footer-->
-  <div class="content">
-    <div class="content-inside">
-
-      <!--Navbar-->
-      <nav>
-        <a href="index.html" id="nav-name">Ryan Gautier</a>
-        <!--Navbar links-->
-        <div class="navigation">
-          <a href="index.html" class="links">Home</a> |
-          <a href="portfolio.html" class="links">Portfolio</a> |
-          <a href="contact.html" class="links">Contact</a>
-        </div>
-      </nav>
-      <!--Section for content-->
-
-      <section>
-        <h1 class="display-4" id="name-title">Contact</h1>
-        <!--Page break-->
-        <hr class="my-4">
-        <!--Contact Form-->
-        <form>
-          <div class="form-group">
-            <label for="FormNameInput">Name</label>
-            <input type="email" class="form-control" id="FormNameInput" placeholder="John Smith">
-          </div>
-          <div class="form-group">
-            <label for="FormEmailInput">Email address</label>
-            <input type="email" class="form-control" id="FormEmailInput" placeholder="name@example.com">
-          </div>
-          <div class="form-group">
-            <label for="FormTextarea">Message</label>
-            <textarea class="form-control" id="FormTextarea" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </section>
+  <!--Navbar-->
+  <nav>
+    <a href="index.html" id="nav-name">Ryan Gautier</a>
+    <!--Navbar links-->
+    <div class="navigation">
+      <a href="index.html">Home</a> |
+      <a href="portfolio.html">Portfolio</a> |
+      <a href="contact.html">Contact</a>
     </div>
-  </div>
+  </nav>
+  <!--Section for content-->
+
+  <section>
+    <h2 class="display-4" id="name-title">Contact</h2>
+    <!--Page break-->
+    <hr class="my-4">
+    <!--Contact Form-->
+    <form>
+      <div class="form-group">
+        <label for="FormNameInput">Name</label>
+        <input type="email" class="form-control" id="FormNameInput" placeholder="John Smith">
+      </div>
+      <div class="form-group">
+        <label for="FormEmailInput">Email address</label>
+        <input type="email" class="form-control" id="FormEmailInput" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="FormTextarea">Message</label>
+        <textarea class="form-control" id="FormTextarea" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <aside class="social-links">
+      <a href="https://github.com/ryangautier1" target="_blank" ><i class="fab fa-github fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/ryangautier1" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+    </aside>
+  </section>
   <!--Footer-->
-  <footer>
+  <footer class="mastfoot mt-auto">
     <div class="line"></div>
     <div class="footer-text">&copy; Copyright</div>
   </footer>

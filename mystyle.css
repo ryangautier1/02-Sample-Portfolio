@@ -3,24 +3,14 @@ body {
     background-color: #e4e4e4;
 }
 
-/*Content classes for setting height of content minus footer*/
-.content {
-    min-height: 100%;
-}
-
-.content-inside{
-    padding-bottom: 75px
-}
-
-
-
 /*Style for main content block*/
 section {
     background-color: #fafafa;
     min-height: 600px;
-    width: 65%;
+    width: 700px;
     margin: 32px 64px;
     padding: 15px 20px 30px 15px;
+    position: relative;
 }
 
 /*Remove underline from links*/
@@ -47,10 +37,6 @@ nav {
     background-color: #3e3f3a;
     margin-left: 64px;
     height: 70px;
-}
-
-.links {
-    color: #777;   
 }
 
 nav {
@@ -84,7 +70,7 @@ nav {
 .thumb-label {
     position: absolute;
     bottom: 15px;
-    width: 200px;
+    width: 250px;
     background-color: #325d88;
     opacity: 0.8;
     color: #fafafa;
@@ -93,6 +79,7 @@ nav {
     font-weight: 500;
 }
 
+/*Style for Contact page*/
 .btn-primary {
     background-color: #3e3f3a;
     border-color: #3e3f3a;
@@ -103,6 +90,21 @@ nav {
     border-color: #325d88;
 }
 
+.social-links {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+a { 
+    color: #3e3f3a;
+}
+
+.fab {
+    margin: 0 7px;
+}
+
+/*Style for footer*/
 footer {
     position: static;
     width: 100%;
@@ -111,11 +113,6 @@ footer {
     text-align: center;
     z-index: 1;
     color: #fafafa;
-    margin-top: -50px;
-}
-
-#sticky-footer {
-    flex-shrink: none;
 }
 
 .line {
@@ -129,22 +126,32 @@ footer {
     margin: 20px;
 }
 
-@media screen and (max-width: 768px) {
+/*Media Queries*/
+@media screen and (max-width: 828px) {
     section {
         width: 90%;
         margin: 32px auto;
+        position: relative;
     }
     #nav-name {
         margin-left: 5%
     }
+
+@media screen and (max-width: 767px) {
+    .thumb {
+        margin: 0 0 50px 0;
+    }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
+    /*Centering picture on index*/
     #my-picture {
         display: block;
         float: none;
         margin: 0 auto 15px;
     }
+
+    /*Making navbar full width*/
     nav {
         background-color: #3e3f3a;
         width: 100%;
@@ -152,8 +159,6 @@ footer {
         text-align: center;
     }
     #nav-name {
-        font-size: 42px;
-        color: #fafafa;
         padding: 0;
         background-color: transparent;
         margin: 0;
