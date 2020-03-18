@@ -25,4 +25,4 @@ Personal portfolio with responsive deisgn
 * Must properly utilize Bootstrap components and grid system.
 
 ## Screenshot
-![Screenshot of website]()
+![Screenshot of website](https://github.com/ryangautier1/02-Sample-Portfolio/blob/master/Screenshot.PNG?raw=true)
